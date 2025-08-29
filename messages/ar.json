@@ -1,0 +1,539 @@
+{
+  "sidebar": {
+    "home": "الرئيسية",
+    "categories": "الاقسام",
+    "products": "المنتجات",
+    "types": "النوع",
+    "coupons": "كوبونات خصم",
+    "offers": "العروض",
+    "orders": "الطلبات",
+    "logout": "تسجيل الخروج"
+  },
+  "loginPage": {
+    "welcome": "مرحبًا بعودتك",
+    "description": "أدخل بيانات تسجيل الدخول للمتابعة",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "login": "تسجيل الدخول"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "subtitle": "مرحباً بك في لوحة تحكم متجرك الإلكتروني. إليك نظرة عامة على متجرك.",
+    "stats": {
+      "totalProducts": "إجمالي المنتجات",
+      "productsDescription": "المنتجات في المخزون",
+      "totalCategories": "إجمالي الفئات",
+      "categoriesDescription": "فئات المنتجات",
+      "totalProductTypes": "أنواع المنتجات",
+      "productTypesDescription": "أنواع المنتجات المختلفة",
+      "activeOffers": "العروض النشطة",
+      "offersDescription": "قيد التشغيل حالياً",
+      "activeCoupons": "الكوبونات النشطة",
+      "couponsDescription": "متاحة للاستخدام"
+    },
+    "activeOffers": {
+      "title": "العروض النشطة",
+      "description": "العروض الترويجية والخصومات الحالية",
+      "noOffers": "لا توجد عروض نشطة في الوقت الحالي",
+      "daysLeft": "يوم متبقي",
+      "expired": "منتهي الصلاحية",
+      "andMore": "+{count} عروض أخرى"
+    },
+    "activeCoupons": {
+      "title": "الكوبونات النشطة",
+      "description": "أكواد الخصم المتاحة للعملاء",
+      "noCoupons": "لا توجد كوبونات نشطة في الوقت الحالي",
+      "daysLeft": "يوم متبقي",
+      "expired": "منتهي الصلاحية",
+      "andMore": "+{count} كوبونات أخرى"
+    }
+  },
+  "categories": {
+    "title": "الأقسام",
+    "subtitle": "إدارة الأقسام وتنظيم المحتوى الخاص بك",
+    "categoryErrorLink": "لا يمكن حذف هذا القسم لأنه مرتبط بمنتجات أو عروض",
+    "faildToDelete": "فشل فى حذف القسم",
+
+    "form": {
+      "nameArabic": "الاسم بالعربية",
+      "nameEnglish": "الاسم بالإنجليزية",
+      "nameArabicPlaceholder": "أدخل اسم القسم بالعربية",
+      "nameEnglishPlaceholder": "أدخل اسم القسم بالإنجليزية",
+      "descriptionArabic": "الوصف بالعربية",
+      "descriptionEnglish": "الوصف بالإنجليزية",
+      "descriptionArabicPlaceholder": "أدخل الوصف بالعربية",
+      "descriptionEnglishPlaceholder": "أدخل الوصف بالإنجليزية"
+    },
+
+    "mediaDialog": {
+      "title": "وسائط القسم",
+      "images": "الصور",
+      "videos": "الفيديوهات",
+      "setMain": "تعيين كصورة رئيسية",
+      "displayOnCard": "معروضة على بطاقة القسم",
+      "view": "عرض الصورة",
+      "playVideo": "تشغيل الفيديو",
+      "video": "فيديو",
+      "main": "رئيسية"
+    },
+
+    "actions": {
+      "add": "إضافة قسم",
+      "edit": "تعديل",
+      "view": "عرض",
+      "delete": "حذف",
+      "save": "حفظ",
+      "update": "تحديث",
+      "cancel": "إلغاء",
+      "filter": "تصفية"
+    },
+
+    "search": {
+      "placeholder": "البحث في الأقسام..."
+    },
+
+    "dialogs": {
+      "add": {
+        "title": "إضافة قسم جديد"
+      },
+      "edit": {
+        "title": "تعديل القسم"
+      },
+      "view": {
+        "title": "تفاصيل القسم"
+      },
+      "delete": {
+        "title": "هل أنت متأكد؟",
+        "description": "لا يمكن التراجع عن هذا الإجراء. سيتم حذف القسم نهائياً من الخوادم."
+      }
+    },
+
+    "empty": {
+      "noCategories": "لا توجد أقسام حتى الآن",
+      "noResults": "لم يتم العثور على نتائج",
+      "createFirst": "ابدأ بإنشاء قسمك الأول",
+      "tryDifferentSearch": "جرب تعديل مصطلحات البحث"
+    },
+
+    "general": {
+      "noDescription": "لا يوجد وصف",
+      "noDate": "لا يوجد تاريخ",
+      "createdAt": "تم الإنشاء في",
+      "lastUpdate": "آخر تعديل",
+      "lastActivity": "آخر نشاط"
+    },
+
+    "alerts": {
+      "categoryExists": "هذا القسم موجود بالفعل"
+    }
+  },
+  "products": {
+    "title": "المنتجات",
+    "description": "قم بإدارة منتجاتك وخدماتك بكفاءة",
+    "noProducts": "لا توجد منتجات بعد",
+    "startAdd": "ابدأ بإضافة أول منتج لك",
+    "actions": {
+      "add": "إضافة منتج",
+      "edit": "تعديل",
+      "update": "تحديث المنتج",
+      "delete": "حذف",
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "media": "الوسائط"
+    },
+    "form": {
+      "name_en": "اسم المنتج (بالإنجليزية)",
+      "name_ar": "اسم المنتج (بالعربية)",
+      "description_en": "الوصف (بالإنجليزية)",
+      "description_ar": "الوصف (بالعربية)",
+      "price": "السعر",
+      "quantity": "الكمية",
+      "category": "القسم",
+      "type": "النوع",
+      "active": "مفعل",
+      "mainImage": "الصوره الرئيسية",
+      "gallery": "معرض الصور"
+    },
+    "types": {
+      "men": "رجالى",
+      "women": "نسائى"
+    },
+    "alerts": {
+      "noMedia": "يرجى التأكد من رفع ملفات الوسائط أولاً",
+      "deleteSureMessage": "هل أنت متأكد من الحذف؟",
+      "noBack": "لا يمكن التراجع عن هذه العملية. سيتم حذف المنتج وجميع وسائطه نهائيًا",
+      "cancel": "إلغاء",
+      "deleteSure": "تأكيد الحذف",
+      "selectImg": "يرجى رفع صورة رئيسية للمنتج"
+    },
+    "mediaDialog": {
+      "title": "وسائط المنتج",
+      "images": "الصور",
+      "videos": "الفيديوهات",
+      "setMain": "تعيين كصورة رئيسية",
+      "displayOnCard": "معروضة على بطاقة المنتج",
+      "view": "عرض الصورة",
+      "playVideo": "تشغيل الفيديو",
+      "video": "فيديو",
+      "main": "رئيسية",
+      "deleteConfirmation": "هل أنت متأكد أنك تريد حذف هذا {type}؟ لا يمكن التراجع عن هذا الإجراء.",
+      "mainImageWarning": "هذه هي الصورة الرئيسية لهذا المنتج.",
+      "deleteMedia": "حذف الوسائط",
+      "addMedia": "إضافة وسائط",
+      "uploadMedia": "جاري رفع الوسائط...",
+      "noImgs": "لم يتم رفع أي صور",
+      "uploadSomeImgs": "قم برفع بعض الصور للبدء",
+      "noVideo": "لم يتم رفع أي فيديوهات",
+      "uploadSomeVideos": "قم برفع بعض الفيديوهات للبدء",
+      "noMedia": "لم يتم رفع وسائط بعد",
+      "mediaAddAction": "انقر على 'إضافة وسائط' لرفع صور أو فيديوهات لهذا المنتج",
+      "deleteSuccess": "تم حذف العنصر بنجاح"
+    }
+  },
+  "productTypes": {
+    "arabic": "العربية",
+    "english": "الإنجليزية",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "note": "ملاحظة",
+    "confirmDeleteTitle": "هل أنت متأكد أنك تريد حذف هذا النوع من المنتجات؟",
+    "confirmDeleteMessage": "لا يمكن التراجع عن هذا الإجراء. سيتم حذف نوع المنتج نهائيًا.",
+    "deleteNote": "لا يمكنك حذف نوع منتج يتم استخدامه بواسطة منتجات حالية.",
+    "noTypes": "لا توجد أنواع منتجات",
+    "startAdd": "ابدأ بإضافة أول نوع منتج",
+    "addType": "إضافة نوع منتج",
+    "editTypeTitle": "تعديل نوع المنتج",
+    "addTypeTitle": "إضافة نوع منتج جديد",
+    "arName": "الاسم بالعربية",
+    "enName": "الاسم بالإنجليزية",
+    "update": "تحديث",
+    "create": "إنشاء",
+    "productTypes": "أنواع المنتجات",
+    "manageTypes": "قم بإدارة فئات وأنواع المنتجات الخاصة بك"
+  },
+  "offers": {
+    "page": {
+      "title": "العروض",
+      "subtitle": "إدارة العروض والخصومات الخاصة بمتجرك"
+    },
+    "form": {
+      "createTitle": "إنشاء عرض جديد",
+      "editTitle": "تعديل العرض",
+      "subtitle": "قم بإنشاء عرض خصم جذاب لعملائك"
+    },
+    "sections": {
+      "basicInfo": {
+        "title": "المعلومات الأساسية",
+        "description": "أدخل تفاصيل العرض الأساسية"
+      },
+      "discountConfig": {
+        "title": "إعدادات الخصم",
+        "description": "حدد نوع وقيمة الخصم"
+      },
+      "dateRange": {
+        "title": "فترة العرض",
+        "description": "حدد تواريخ بداية ونهاية العرض"
+      },
+      "targetSettings": {
+        "title": "نطاق التطبيق",
+        "description": "حدد المنتجات التي ينطبق عليها العرض"
+      },
+      "status": {
+        "title": "حالة العرض",
+        "description": "تحكم في تفعيل أو إلغاء تفعيل العرض"
+      },
+      "preview": {
+        "title": "معاينة العرض",
+        "description": "شاهد كيف سيظهر العرض للعملاء"
+      }
+    },
+    "fields": {
+      "title": {
+        "label": "عنوان العرض",
+        "placeholder": "مثال: خصم 20% على جميع المنتجات"
+      },
+      "description": {
+        "label": "وصف العرض",
+        "placeholder": "اكتب وصفاً مفصلاً للعرض..."
+      },
+      "discountType": {
+        "label": "نوع الخصم",
+        "options": {
+          "percentage": "نسبة مئوية",
+          "fixed": "مبلغ ثابت"
+        }
+      },
+      "discountValue": {
+        "label": "قيمة الخصم"
+      },
+      "startDate": {
+        "label": "تاريخ البداية"
+      },
+      "endDate": {
+        "label": "تاريخ النهاية"
+      },
+      "appliesTo": {
+        "label": "يُطبّق على",
+        "options": {
+          "all": "جميع المنتجات",
+          "category": "قسم محدد",
+          "product": "منتج محدد"
+        }
+      },
+      "category": {
+        "label": "اختر القسم",
+        "placeholder": "اختر القسم"
+      },
+      "product": {
+        "label": "اختر المنتج",
+        "placeholder": "اختر المنتج"
+      },
+      "isActive": {
+        "label": "العرض مفعل؟",
+        "activeHelp": "العرض مفعل ومتاح للعملاء",
+        "inactiveHelp": "العرض معطل ولن يظهر للعملاء"
+      }
+    },
+    "status": {
+      "active": "مفعل",
+      "inactive": "غير مفعل",
+      "scheduled": "مجدول",
+      "expired": "منتهي الصلاحية"
+    },
+    "discount": {
+      "percentage": "{value}% خصم",
+      "fixed": "{value} ج.م خصم"
+    },
+    "appliesTo": {
+      "all": "جميع المنتجات",
+      "category": "قسم محدد",
+      "product": "منتج محدد"
+    },
+    "preview": {
+      "title": "العنوان",
+      "discount": "الخصم",
+      "appliesTo": "ينطبق على",
+      "period": "فترة العرض",
+      "from": "من",
+      "to": "إلى"
+    },
+    "validation": {
+      "titleRequired": "عنوان العرض مطلوب",
+      "descriptionRequired": "وصف العرض مطلوب",
+      "discountValuePositive": "قيمة الخصم يجب أن تكون أكبر من صفر",
+      "percentageMax": "النسبة المئوية لا يمكن أن تتجاوز 100%",
+      "endDateAfterStart": "تاريخ النهاية يجب أن يكون بعد تاريخ البداية",
+      "categoryRequired": "يجب اختيار قسم",
+      "productRequired": "يجب اختيار منتج"
+    },
+    "actions": {
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "add": "إضافة عرض",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "duplicate": "نسخ",
+      "copy": "نسخة"
+    },
+    "stats": {
+      "total": "إجمالي العروض",
+      "active": "العروض المفعلة",
+      "scheduled": "العروض المجدولة",
+      "inactive": "العروض المعطلة"
+    },
+    "search": {
+      "placeholder": "البحث في العروض..."
+    },
+    "filter": {
+      "label": "تصفية",
+      "all": "الكل",
+      "active": "مفعل",
+      "scheduled": "مجدول",
+      "inactive": "معطل"
+    },
+    "empty": {
+      "title": "لا توجد عروض",
+      "description": "ابدأ بإنشاء عرضك الأول لجذب العملاء",
+      "createFirst": "إنشاء أول عرض"
+    },
+    "card": {
+      "discount": "الخصم",
+      "period": "فترة العرض",
+      "appliesTo": "ينطبق على"
+    },
+    "delete": {
+      "title": "هل أنت متأكد؟",
+      "description": "سيتم حذف العرض '{title}' نهائياً. لا يمكن التراجع عن هذا الإجراء."
+    },
+    "currency": "ج.م"
+  },
+  "coupons": {
+    "title": "تطبيق كوبون",
+    "placeholders": {
+      "enterCode": "أدخل رمز الكوبون"
+    },
+    "buttons": {
+      "apply": "تطبيق",
+      "remove": "إزالة الكوبون"
+    },
+    "errors": {
+      "enterCode": "يرجى إدخال رمز الكوبون",
+      "notFound": "لم يتم العثور على رمز الكوبون",
+      "invalid": "رمز الكوبون غير صالح",
+      "inactive": "هذا الكوبون غير مفعل",
+      "notStarted": "هذا الكوبون لم يبدأ بعد",
+      "expired": "انتهت صلاحية هذا الكوبون",
+      "usageLimitReached": "تم الوصول إلى الحد الأقصى لاستخدام هذا الكوبون",
+      "minOrderValue": "الحد الأدنى للطلب هو ${amount}"
+    },
+    "success": {
+      "applied": "تم تطبيق الكوبون {code}! لقد وفرت ${discount}"
+    },
+    "applied": {
+      "title": "تم تطبيق الكوبون {code}",
+      "discountPercentage": "خصم بنسبة {value}%",
+      "discountFixed": "خصم بقيمة ${value}",
+      "validUntil": "صالح حتى {date}",
+      "minOrder": "الحد الأدنى للطلب: ${amount}"
+    },
+    "available": {
+      "title": "الكوبونات المتاحة",
+      "expires": "ينتهي في {date}"
+    },
+    "management": {
+      "title": "إدارة الكوبونات",
+      "loading": "جاري تحميل الكوبونات...",
+      "empty": "لا توجد كوبونات حالياً. أنشئ أول كوبون للبدء.",
+      "confirmDelete": "هل أنت متأكد أنك تريد حذف الكوبون '{code}'؟",
+      "deleteSure": "تأكيد الحذف",
+      "buttons": {
+        "create": "إنشاء كوبون",
+        "cancel": "إلغاء",
+        "update": "تحديث الكوبون",
+        "saving": "جاري الحفظ...",
+        "delete": "حذف",
+        "deleting": "جاري الحذف..."
+      },
+      "deleteDialog": {
+        "title": "حذف الكوبون",
+        "message ": "هل أنت متأكد من حذف الكوبون "
+      },
+      "dialog": {
+        "createTitle": "إنشاء كوبون جديد",
+        "editTitle": "تعديل الكوبون"
+      },
+      "form": {
+        "code": {
+          "label": "رمز الكوبون",
+          "placeholder": "أدخل رمز الكوبون (مثال: SAVE20)"
+        },
+        "discountType": {
+          "label": "نوع الخصم",
+          "percentage": "نسبة مئوية",
+          "fixed": "قيمة ثابتة"
+        },
+        "discountValue": {
+          "percentageLabel": "نسبة الخصم (%)",
+          "fixedLabel": "قيمة الخصم ($)"
+        },
+        "usageLimit": {
+          "label": "حد الاستخدام",
+          "placeholder": "غير محدود"
+        },
+        "minOrderValue": {
+          "label": "الحد الأدنى للطلب ($)",
+          "placeholder": "بدون حد أدنى"
+        },
+        "startDate": {
+          "label": "تاريخ البدء"
+        },
+        "endDate": {
+          "label": "تاريخ الانتهاء"
+        },
+        "isActive": {
+          "label": "مفعل"
+        }
+      },
+      "table": {
+        "title": "جميع الكوبونات",
+        "code": "الرمز",
+        "discount": "الخصم",
+        "usage": "الاستخدام",
+        "dates": "فترة الصلاحية",
+        "status": "الحالة",
+        "actions": "الإجراءات"
+      },
+      "status": {
+        "active": "مفعل",
+        "inactive": "غير مفعل",
+        "expired": "منتهي",
+        "scheduled": "مجدول",
+        "limitReached": "تم الوصول للحد"
+      },
+      "alerts": {
+        "created": "تم إنشاء الكوبون بنجاح!",
+        "updated": "تم تحديث الكوبون بنجاح!",
+        "error": "حدث خطأ. يرجى المحاولة مرة أخرى."
+      }
+    }
+  },
+  "orders": {
+    "title": "الطلبات",
+    "search": "بحث",
+    "searchPh": "اسم/إيميل/هاتف/ID…",
+    "status": "الحالة",
+    "all": "الكل",
+    "pending": "قيد المراجعة",
+    "processing": "جاري التحضير",
+    "shipped": "تم الشحن",
+    "delivered": "تم التوصيل",
+    "canceled": "ملغي",
+    "filter": "تصفية",
+    "th": {
+      "id": "المعرف",
+      "date": "التاريخ",
+      "customer": "العميل",
+      "governorate": "المحافظة",
+      "subtotal": "الإجمالي الفرعي",
+      "shipping": "الشحن",
+      "total": "الإجمالي",
+      "status": "الحالة",
+      "actions": "إجراءات"
+    },
+    "view": "عرض",
+    "noResults": "لا توجد نتائج",
+    "showing": "عرض {from}–{to} من {total}",
+    "prev": "السابق",
+    "next": "التالي",
+    "status_pending": "قيد المراجعة",
+    "status_processing": "جاري التحضير",
+    "status_shipped": "تم الشحن",
+    "status_delivered": "تم التوصيل",
+    "status_canceled": "ملغي"
+  },
+  "orderDetails": {
+    "back": "رجوع",
+    "title": "تفاصيل الطلب",
+    "customer": "العميل",
+    "shippingAddress": "عنوان الشحن",
+    "items": "العناصر",
+    "subtotal": "الإجمالي الفرعي",
+    "shipping": "الشحن",
+    "grandTotal": "الإجمالي",
+    "th": {
+      "item": "العنصر",
+      "qty": "الكمية",
+      "price": "السعر",
+      "total": "الإجمالي"
+    },
+    "status_pending": "قيد المراجعة",
+    "status_processing": "جاري التحضير",
+    "status_shipped": "تم الشحن",
+    "status_delivered": "تم التوصيل",
+    "status_canceled": "ملغي",
+    "statusLabel": "تغيير الحالة",
+    "notes": "ملاحظات",
+    "noNotes": "لا توجد ملاحظات"
+  }
+}

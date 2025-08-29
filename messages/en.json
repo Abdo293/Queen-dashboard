@@ -1,0 +1,534 @@
+{
+  "sidebar": {
+    "home": "Home",
+    "categories": "Categories",
+    "products": "Products",
+    "types": "Types",
+    "coupons": "Coupons",
+    "offers": "Offers",
+    "orders": "Orders",
+    "logout": "Log out"
+  },
+  "loginPage": {
+    "welcome": "Welcome Back",
+    "description": "Enter your credentials to continue",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome to your e-commerce dashboard. Here's an overview of your store.",
+    "stats": {
+      "totalProducts": "Total Products",
+      "productsDescription": "Products in inventory",
+      "totalCategories": "Total Categories",
+      "categoriesDescription": "Product categories",
+      "totalProductTypes": "Product Types",
+      "productTypesDescription": "Different product types",
+      "activeOffers": "Active Offers",
+      "offersDescription": "Currently running",
+      "activeCoupons": "Active Coupons",
+      "couponsDescription": "Available for use"
+    },
+    "activeOffers": {
+      "title": "Active Offers",
+      "description": "Current promotional offers and discounts",
+      "noOffers": "No active offers at the moment",
+      "daysLeft": "days left",
+      "expired": "Expired",
+      "andMore": "+{count} more offers"
+    },
+    "activeCoupons": {
+      "title": "Active Coupons",
+      "description": "Available coupon codes for customers",
+      "noCoupons": "No active coupons at the moment",
+      "daysLeft": "days left",
+      "expired": "Expired",
+      "andMore": "+{count} more coupons"
+    }
+  },
+  "categories": {
+    "title": "Categories",
+    "subtitle": "Manage your categories and organize your content",
+    "categoryErrorLink": "This category cannot be deleted because it is linked to products or offers",
+    "faildToDelete": "Faild To Delete Category",
+
+    "form": {
+      "nameArabic": "Arabic Name",
+      "nameEnglish": "English Name",
+      "nameArabicPlaceholder": "Enter category name in Arabic",
+      "nameEnglishPlaceholder": "Enter category name in English",
+      "descriptionArabic": "Arabic Description",
+      "descriptionEnglish": "English Description",
+      "descriptionArabicPlaceholder": "Enter description in Arabic",
+      "descriptionEnglishPlaceholder": "Enter description in English"
+    },
+
+    "mediaDialog": {
+      "title": "Category Media",
+      "images": "Images",
+      "videos": "Videos",
+      "setMain": "Set Main",
+      "displayOnCard": "Displayed on category card",
+      "view": "View Image",
+      "playVideo": "Play Video",
+      "video": "VIDEO",
+      "main": "Main"
+    },
+
+    "actions": {
+      "add": "Add Category",
+      "edit": "Edit",
+      "view": "View",
+      "delete": "Delete",
+      "save": "Save",
+      "update": "Update",
+      "cancel": "Cancel",
+      "filter": "Filter"
+    },
+
+    "search": {
+      "placeholder": "Search categories..."
+    },
+
+    "dialogs": {
+      "add": {
+        "title": "Add New Category"
+      },
+      "edit": {
+        "title": "Edit Category"
+      },
+      "view": {
+        "title": "Category Details"
+      },
+      "delete": {
+        "title": "Are you sure?",
+        "description": "This action cannot be undone. This will permanently delete the category and remove it from our servers."
+      }
+    },
+
+    "empty": {
+      "noCategories": "No categories yet",
+      "noResults": "No results found",
+      "createFirst": "Get started by creating your first category",
+      "tryDifferentSearch": "Try adjusting your search terms"
+    },
+
+    "general": {
+      "noDescription": "No description provided",
+      "noDate": "No date",
+      "createdAt": "Created at",
+      "lastActivity": "Last activity",
+      "lastUpdate": "Last update"
+    },
+
+    "alerts": {
+      "categoryExists": "This category already exists"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "description": "Manage your products and services efficiently",
+    "noProducts": "No products yet",
+    "startAdd": "Get started by adding your first product",
+    "actions": {
+      "add": "Add Product",
+      "edit": "Edit",
+      "update": "Update Product",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "media": "Media"
+    },
+    "form": {
+      "name_en": "Product Name (English)",
+      "name_ar": "Product Name (Arabic)",
+      "description_en": "Description (English)",
+      "description_ar": "Description (Arabic)",
+      "price": "Price",
+      "quantity": "Quantity",
+      "category": "Category",
+      "type": "Type",
+      "active": "Active",
+      "mainImage": "Main Image",
+      "gallery": "Gallery"
+    },
+    "types": {
+      "men": "men",
+      "women": "women"
+    },
+    "alerts": {
+      "noMedia": "Please make sure to upload media files first",
+      "deleteSureMessage": "Are you sure you want to delete?",
+      "noBack": "This action cannot be undone. The product and all its media will be permanently deleted",
+      "cancel": "Cancel",
+      "deleteSure": "Delete",
+      "selectImg": "Please upload a main image for the product"
+    },
+    "mediaDialog": {
+      "title": "Product Media",
+      "images": "Images",
+      "videos": "Videos",
+      "setMain": "Set Main",
+      "displayOnCard": "Displayed on product card",
+      "view": "View Image",
+      "playVideo": "Play Video",
+      "video": "VIDEO",
+      "main": "Main",
+      "deleteConfirmation": "Are you sure you want to delete this {type}? This action cannot be undone.",
+      "mainImageWarning": "This is the main image for this product.",
+      "deleteMedia": "Delete Media",
+      "addMedia": "Add Media",
+      "uploadMedia": " Uploading media...",
+      "noImgs": " No images uploaded",
+      "uploadSomeImgs": "Upload some images to get started",
+      "noVideo": "No videos uploaded",
+      "uploadSomeVideos": "Upload some videos to get started",
+      "noMedia": "No media uploaded yet",
+      "mediaAddAction": "Click 'Add Media' to upload images or videos for this product",
+      "deleteSuccess": "Item deleted successfully"
+    }
+  },
+  "productTypes": {
+    "arabic": "Arabic",
+    "english": "English",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "note": "Note",
+    "confirmDeleteTitle": " Are you sure you want to delete this product type?",
+    "confirmDeleteMessage": "This action cannot be undone. This will permanently delete the product type",
+    "deleteNote": "You cannot delete a product type that is being used by existing products",
+    "noTypes": "No Product Types",
+    "startAdd": "Start by adding your first product type",
+    "addType": "Add Product Type",
+    "editTypeTitle": "Edit Product Type",
+    "addTypeTitle": "Add New Product Type",
+    "arName": "Arabic Name",
+    "enName": "English Name",
+    "update": "Update",
+    "create": "Create",
+    "productTypes": "Product Types",
+    "manageTypes": "Manage your product categories and types"
+  },
+  "offers": {
+    "page": {
+      "title": "Offers",
+      "subtitle": "Manage offers and discounts for your store"
+    },
+    "form": {
+      "createTitle": "Create New Offer",
+      "editTitle": "Edit Offer",
+      "subtitle": "Create an attractive discount offer for your customers"
+    },
+    "sections": {
+      "basicInfo": {
+        "title": "Basic Information",
+        "description": "Enter the basic details of the offer"
+      },
+      "discountConfig": {
+        "title": "Discount Settings",
+        "description": "Set the type and value of the discount"
+      },
+      "dateRange": {
+        "title": "Offer Period",
+        "description": "Set the start and end dates for the offer"
+      },
+      "targetSettings": {
+        "title": "Application Scope",
+        "description": "Define which products the offer applies to"
+      },
+      "status": {
+        "title": "Offer Status",
+        "description": "Control whether the offer is active or inactive"
+      },
+      "preview": {
+        "title": "Offer Preview",
+        "description": "See how the offer will appear to customers"
+      }
+    },
+    "fields": {
+      "title": {
+        "label": "Offer Title",
+        "placeholder": "Example: 20% off all products"
+      },
+      "description": {
+        "label": "Offer Description",
+        "placeholder": "Write a detailed description of the offer..."
+      },
+      "discountType": {
+        "label": "Discount Type",
+        "options": {
+          "percentage": "Percentage",
+          "fixed": "Fixed Amount"
+        }
+      },
+      "discountValue": {
+        "label": "Discount Value"
+      },
+      "startDate": {
+        "label": "Start Date"
+      },
+      "endDate": {
+        "label": "End Date"
+      },
+      "appliesTo": {
+        "label": "Applies To",
+        "options": {
+          "all": "All Products",
+          "category": "Specific Category",
+          "product": "Specific Product"
+        }
+      },
+      "category": {
+        "label": "Select Category",
+        "placeholder": "Choose category"
+      },
+      "product": {
+        "label": "Select Product",
+        "placeholder": "Choose product"
+      },
+      "isActive": {
+        "label": "Is Offer Active?",
+        "activeHelp": "Offer is active and available to customers",
+        "inactiveHelp": "Offer is disabled and won't show to customers"
+      }
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "scheduled": "Scheduled",
+      "expired": "Expired"
+    },
+    "discount": {
+      "percentage": "{value}% off",
+      "fixed": "${value} off"
+    },
+    "appliesTo": {
+      "all": "All Products",
+      "category": "Specific Category",
+      "product": "Specific Product"
+    },
+    "preview": {
+      "title": "Title",
+      "discount": "Discount",
+      "appliesTo": "Applies To",
+      "period": "Offer Period",
+      "from": "From",
+      "to": "To"
+    },
+    "validation": {
+      "titleRequired": "Offer title is required",
+      "descriptionRequired": "Offer description is required",
+      "discountValuePositive": "Discount value must be greater than zero",
+      "percentageMax": "Percentage cannot exceed 100%",
+      "endDateAfterStart": "End date must be after start date",
+      "categoryRequired": "Category must be selected",
+      "productRequired": "Product must be selected"
+    },
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "add": "Add Offer",
+      "edit": "Edit",
+      "delete": "Delete",
+      "duplicate": "Duplicate",
+      "copy": "Copy"
+    },
+    "stats": {
+      "total": "Total Offers",
+      "active": "Active Offers",
+      "scheduled": "Scheduled Offers",
+      "inactive": "Inactive Offers"
+    },
+    "search": {
+      "placeholder": "Search offers..."
+    },
+    "filter": {
+      "label": "Filter",
+      "all": "All",
+      "active": "Active",
+      "scheduled": "Scheduled",
+      "inactive": "Inactive"
+    },
+    "empty": {
+      "title": "No offers found",
+      "description": "Start by creating your first offer to attract customers",
+      "createFirst": "Create First Offer"
+    },
+    "card": {
+      "discount": "Discount",
+      "period": "Offer Period",
+      "appliesTo": "Applies To"
+    },
+    "delete": {
+      "title": "Are you sure?",
+      "description": "The offer '{title}' will be permanently deleted. This action cannot be undone."
+    },
+    "currency": "$"
+  },
+  "coupons": {
+    "title": "Apply Coupon",
+    "placeholders": {
+      "enterCode": "Enter coupon code"
+    },
+    "buttons": {
+      "apply": "Apply",
+      "remove": "Remove Coupon"
+    },
+    "errors": {
+      "enterCode": "Please enter a coupon code",
+      "notFound": "Coupon code not found",
+      "invalid": "Invalid coupon code",
+      "inactive": "This coupon is not active",
+      "notStarted": "This coupon is not yet valid",
+      "expired": "This coupon has expired",
+      "usageLimitReached": "This coupon has reached its usage limit",
+      "minOrderValue": "Minimum order value of ${amount} required"
+    },
+    "success": {
+      "applied": "Coupon {code} applied! You saved ${discount}"
+    },
+    "applied": {
+      "title": "Coupon {code} Applied",
+      "discountPercentage": "{value}% discount",
+      "discountFixed": "${value} discount",
+      "validUntil": "Valid until {date}",
+      "minOrder": "Min order: ${amount}"
+    },
+    "available": {
+      "title": "Available Coupons",
+      "expires": "Expires {date}"
+    },
+    "management": {
+      "title": "Coupon Management",
+      "loading": "Loading coupons...",
+      "empty": "No coupons found. Create your first coupon to get started.",
+      "confirmDelete": "Are you sure you want to delete coupon '{code}'?",
+      "deleteSure": "Delete Confirmation",
+      "buttons": {
+        "delete": "Delete",
+        "create": "Create Coupon",
+        "cancel": "Cancel",
+        "update": "Update Coupon",
+        "saving": "Saving...",
+        "deleting": "Deleting..."
+      },
+      "deleteDialog": {
+        "title": "Delete coupon",
+        "message": "Are you sure you want to delete coupon "
+      },
+      "dialog": {
+        "createTitle": "Create New Coupon",
+        "editTitle": "Edit Coupon"
+      },
+      "form": {
+        "code": {
+          "label": "Coupon Code",
+          "placeholder": "Enter coupon code (e.g., SAVE20)"
+        },
+        "discountType": {
+          "label": "Discount Type",
+          "percentage": "Percentage",
+          "fixed": "Fixed Amount"
+        },
+        "discountValue": {
+          "percentageLabel": "Discount Percentage (%)",
+          "fixedLabel": "Discount Amount ($)"
+        },
+        "usageLimit": {
+          "label": "Usage Limit",
+          "placeholder": "Unlimited"
+        },
+        "minOrderValue": {
+          "label": "Minimum Order Value ($)",
+          "placeholder": "No minimum"
+        },
+        "startDate": {
+          "label": "Start Date"
+        },
+        "endDate": {
+          "label": "End Date"
+        },
+        "isActive": {
+          "label": "Active"
+        }
+      },
+      "table": {
+        "title": "All Coupons",
+        "code": "Code",
+        "discount": "Discount",
+        "usage": "Usage",
+        "dates": "Valid Period",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "expired": "Expired",
+        "scheduled": "Scheduled",
+        "limitReached": "Limit Reached"
+      },
+      "alerts": {
+        "created": "Coupon created successfully!",
+        "updated": "Coupon updated successfully!",
+        "error": "An error occurred. Please try again."
+      }
+    }
+  },
+  "orders": {
+    "title": "Orders",
+    "search": "Search",
+    "searchPh": "Name/Email/Phone/ID…",
+    "status": "Status",
+    "all": "All",
+    "pending": "Pending",
+    "processing": "Processing",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "canceled": "Canceled",
+    "filter": "Filter",
+    "th": {
+      "id": "ID",
+      "date": "Date",
+      "customer": "Customer",
+      "governorate": "Governorate",
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "total": "Total",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "view": "View",
+    "noResults": "No results",
+    "showing": "Showing {from}–{to} of {total}",
+    "prev": "Prev",
+    "next": "Next",
+    "status_pending": "Pending",
+    "status_processing": "Processing",
+    "status_shipped": "Shipped",
+    "status_delivered": "Delivered",
+    "status_canceled": "Canceled"
+  },
+  "orderDetails": {
+    "back": "Back",
+    "title": "Order Details",
+    "customer": "Customer",
+    "shippingAddress": "Shipping Address",
+    "items": "Items",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "grandTotal": "Grand Total",
+    "th": { "item": "Item", "qty": "Qty", "price": "Price", "total": "Total" },
+    "status_pending": "Pending",
+    "status_processing": "Processing",
+    "status_shipped": "Shipped",
+    "status_delivered": "Delivered",
+    "status_canceled": "Canceled",
+    "statusLabel": "Change status",
+    "notes": "Notes",
+    "noNotes": "No notes available"
+  }
+}
