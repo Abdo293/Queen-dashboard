@@ -93,7 +93,7 @@ export function useProductTypes() {
       const { data: productsUsingType, error: checkError } = await supabase
         .from("products")
         .select("id")
-        .eq("product_type_id", id)
+        .eq("type", id)
         .limit(1);
 
       if (checkError) throw checkError;
